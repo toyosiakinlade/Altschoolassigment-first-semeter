@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <h2>Audio</h2>
+    <audio controls>
+      <p>Hello I'm audio mp3</p>
+      <source
+        src="./media/audio sound.mp3"
+        type="audio/mp3"
+      />
+    </audio>
+    <audio controls>
+      <p>Hi I'm audio wav</p>
+      <source
+        src="./media/audio-sound.wav"
+        type="audio/wav"
+      />
+    </audio>
+
+    <h2>Pictures</h2>
+    <picture>
+      <!-- <source  srcset="Toyo Large.jpg" media="(min-width:1084px)">
+    <source srcset="Toyo medium.jpg" media="(min-width:782px)">
+    <source  srcset="Toyo Small.jpg" media="(min-width:322px)">  -->
+
+      <source media="min-width: 322px" srcset=".//media/Toyo Large.jpg" 360w,
+      src=.//media/ToyooSmall.jpg>
+
+      <img
+        src=".//media/Toyoo Small.jpg"
+        alt="default image"
+      />
+    </picture>
+
+    <h2>video</h2>
+    <video controls>
+    <source src="./media/20220830_095240_03.mp4" type="video/mp4">
+    </video>
+  </body>
+</html>
